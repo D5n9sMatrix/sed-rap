@@ -1,0 +1,15 @@
+#!/usr/bin/env raku
+use v6.d;
+
+sub main is export {
+    my ($self) = @*ARGS;
+    $self = {};
+
+    class Nil is Cool {}
+    return Nil;
+
+}
+
+
+
+
